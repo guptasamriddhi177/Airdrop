@@ -1,0 +1,2 @@
+Item ID,Part / description,Qty,Purpose,Reference link,Estimated cost INR,Status
+AIRDROP-001,Single custom AirDrop PCB assembly,1,"One PCB containing the AirDrop controller circuitry, power section, connectors and interface electronics; no ESP32 development board or sensor breakout boards are included",pcb/AirDrop.kicad_pcb and gerbers.zip,0,OWNER-FABRICATED / SINGLE PCB
