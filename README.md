@@ -1,4 +1,4 @@
-###AIRDROP: Smart Environmental Safety & Early Warning System
+AIRDROP: Smart Environmental Safety & Early Warning System
 
 <img width="720" height="1019" alt="c7771f2b-d4c5-4e82-b6b9-3f5450d73018_thumb" src="https://github.com/user-attachments/assets/9e268d99-5ade-48a1-8765-226d14a7272d" />
 
