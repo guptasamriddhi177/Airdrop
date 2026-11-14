@@ -59,7 +59,9 @@ PCB specifications:
 
 3D Assembly
 
-[Add 3D assembly image here]
+<img width="470" height="380" alt="98307633-bf5f-48ec-a5f4-772aa08b9e72_thumb" src="https://github.com/user-attachments/assets/127b4549-4158-4e3d-b965-cb545065ff83" />
+<img width="720" height="551" alt="1f4e5274-c258-4b62-9743-5bc52c5c924d_thumb" src="https://github.com/user-attachments/assets/29fe4e18-2d3b-4e3e-8d82-310e3155264f" />
+
 
 I also worked on the 3D assembly to understand how the different components would fit together physically.
 
