@@ -70,10 +70,9 @@ I also worked on the 3D assembly to understand how the different components woul
 This helped me visualize the overall structure before moving towards the actual hardware build.
 
 Software & Dashboard
+<img width="720" height="1396" alt="0bcfb8d2-a0f2-423f-9527-e8ecb592639d_thumb" src="https://github.com/user-attachments/assets/778a0cad-16c6-46a1-aac4-3313ccc55b48" />
 
-<img width="720" height="1570" alt="b09ed230-7ea3-49b7-a987-46d15894d232_thumb" src="https://github.com/user-attachments/assets/73971b57-fedd-4f55-bf83-700551d15822" />
-<img width="720" height="1570" alt="04434ef3-845b-442c-a095-8e11ffd926a1_thumb" src="https://github.com/user-attachments/assets/f5824fe4-7021-46dc-b5c3-fffe87bd2b1a" />
-<img width="720" height="1570" alt="404dea71-05fa-43c4-9e14-1719cf908065_thumb" src="https://github.com/user-attachments/assets/e6b87ddb-a524-4e76-996b-6452f8b7b3bd" />
+<img width="720" height="1404" alt="c768684a-6e65-4a00-81b9-5a89a21fb49c_thumb" src="https://github.com/user-attachments/assets/115fc071-0edb-44eb-b44d-0d6f7ac95559" />
 
 The software side of AIRDROP connects the sensor hardware to a Firebase backend.
 
