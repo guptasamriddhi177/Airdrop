@@ -12,18 +12,18 @@ I started working on AIRDROP because I wanted to explore how affordable electron
 
 Features
 
-- Environmental monitoring using multiple sensors.
-- Temperature, humidity and air-quality monitoring.
-- Airflow detection.
-- Water-leak detection.
-- Motion and distance monitoring.
-- ESP32-based wireless communication.
-- Firebase integration for real-time data updates.
-- Dashboard with sensor readings and alerts.
-- Risk scoring system with different safety levels.
-- Location-based monitoring concept.
-- Wearable notifications and SOS functionality.
-- Early-warning and forecasting features under development.
+• Environmental monitoring using multiple sensors.
+• Temperature, humidity and air-quality monitoring.
+• Airflow detection.
+• Water-leak detection.
+• Motion and distance monitoring.
+• ESP32-based wireless communication.
+• Firebase integration for real-time data updates.
+• Dashboard with sensor readings and alerts.
+• Risk scoring system with different safety levels.
+• Location-based monitoring concept.
+• Wearable notifications and SOS functionality.
+• Early-warning and forecasting features under development.
   <img width="720" height="405" alt="608bbcf5-2657-4c95-96f3-e0eb5eb77617_thumb" src="https://github.com/user-attachments/assets/8cc52413-7d5a-445c-a065-1ded8c386ca1" />
 
 
@@ -33,14 +33,14 @@ AIRDROP uses ESP32-based modules to collect information from different sensors.
 
 Main components:
 
-- ESP32-WROOM-32 modules
-- BME680 environmental sensor
-- MPU6050 motion sensor
-- HC-SR04 ultrasonic sensors
-- Airflow sensor
-- Water-leak sensors
-- Custom-designed PCB
-- USB power connection
+• ESP32-WROOM-32 modules
+• BME680 environmental sensor
+• MPU6050 motion sensor
+• HC-SR04 ultrasonic sensors
+• Airflow sensor
+• Water-leak sensors
+• Custom-designed PCB
+• USB power connection
 
 The system is divided into multiple sensor modules so different environmental parameters can be monitored together.
 
@@ -54,11 +54,11 @@ The design uses two ESP32-WROOM-32 modules and a combined board architecture. Th
 
 PCB specifications:
 
-- 4-layer PCB
-- 50 × 50 mm board
-- USB-powered design
-- Two ESP32-WROOM-32 modules
-- Custom component placement and routing
+• 4-layer PCB
+• 50 × 50 mm board
+• USB-powered design
+• Two ESP32-WROOM-32 modules
+• Custom component placement and routing
 
 3D Assembly
 
@@ -93,12 +93,12 @@ The firmware is being developed for the ESP32 modules.
 
 Its main responsibilities include:
 
-- Reading data from connected sensors.
-- Processing sensor readings.
-- Communicating between modules.
-- Sending data to Firebase.
-- Detecting unusual readings.
-- Triggering alerts when required.
+• Reading data from connected sensors.
+• Processing sensor readings.
+• Communicating between modules.
+• Sending data to Firebase.
+• Detecting unusual readings.
+• Triggering alerts when required.
 
 The idea is to avoid unnecessary panic alerts and make notifications meaningful.
 
@@ -128,4 +128,4 @@ Thanks to the open-source hardware and software communities for the tools, libra
 
 Built with curiosity, experimentation and a lot of debugging.
 
-AIRDROP — Detect Early. Alert Smarter. Stay Safer.
+AIRDROP: A Safer method 
