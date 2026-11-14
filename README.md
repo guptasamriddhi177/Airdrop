@@ -69,7 +69,9 @@ This helped me visualize the overall structure before moving towards the actual 
 
 Software & Dashboard
 
-[Add dashboard screenshots here]
+<img width="720" height="1570" alt="04434ef3-845b-442c-a095-8e11ffd926a1_thumb" src="https://github.com/user-attachments/assets/46b92061-39d7-4f0e-83eb-57a4d31e1cd3" />
+
+<img width="720" height="1570" alt="404dea71-05fa-43c4-9e14-1719cf908065_thumb" src="https://github.com/user-attachments/assets/80ea2635-3362-4ef1-a759-a5008a4697f2" />
 
 The software side of AIRDROP connects the sensor hardware to a Firebase backend.
 
