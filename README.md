@@ -1,9 +1,10 @@
 AIRDROP: Smart Environmental Safety & Early Warning System
 
-AIRDROP is a smart environmental safety and early-warning system designed to monitor surroundings, detect unusual environmental changes and alert people when something doesn't seem right.
+<img width="720" height="1019" alt="c7771f2b-d4c5-4e82-b6b9-3f5450d73018_thumb" src="https://github.com/user-attachments/assets/9e268d99-5ade-48a1-8765-226d14a7272d" />
 
-AIRDROP
+It is a smart environmental safety and early-warning system designed to monitor surroundings, detect unusual environmental changes and alert people when something doesn't seem right.
 
+<img width="720" height="405" alt="0e0d7a9c-f9d2-4eef-81de-85b5f49f2ab9_thumb" src="https://github.com/user-attachments/assets/b0bc6614-e372-4167-8bc9-742dff26d441" />
 
 AIRDROP combines multiple sensors, ESP32-based modules and a connected dashboard to make environmental monitoring more accessible. The idea is to build something that doesn't just collect sensor readings but can also help people understand when their surroundings might be becoming unsafe.
 
@@ -41,9 +42,8 @@ Main components:
 
 The system is divided into multiple sensor modules so different environmental parameters can be monitored together.
 
-PCB
-
-[Add PCB design image here]
+Schematics 
+<img width="720" height="400" alt="2b020648-ed2b-4084-bb17-10407751aba8_thumb" src="https://github.com/user-attachments/assets/740fa0f6-552d-4f8f-9e65-a15490eca258" />
 
 Instead of relying entirely on ready-made sensor boards, I worked on a custom PCB design for the system.
 
