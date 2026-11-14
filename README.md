@@ -1,110 +1,126 @@
- AirDrop – Environmental Safety & Disaster Prediction System
+AIRDROP: Smart Environmental Safety & Early Warning System
 
-AirDrop is a smart, IoT-based environmental monitoring and disaster-risk prediction system designed to detect potentially dangerous environmental changes, assess risk, and provide early warnings to people before a situation becomes critical.
+AIRDROP is a smart environmental safety and early-warning system designed to monitor surroundings, detect unusual environmental changes and alert people when something doesn't seem right.
 
-It is your engineering project that combines hardware, software, sensors, cloud computing, AI-based risk assessment, and a real-time monitoring dashboard.
+AIRDROP
 
-![\[HEX\]POD - Climate Tracker &amp; Digital Nose | Details | Hackaday.io](https://images.openai.com/static-rsc-4/hXCzJIAv2rAdW2iMEy30GQVixZ1xN7JxobFqBvFs3Mg8poFW3zi1tbnJ2ov3jz6VL2K7NzlZCrWXMpPcgcy57bvzBAJEJJxgbycF0kwaVskbiIdCYwbNsa-oSGqihbdFzn0XBBDzBhMutomtf0-Tk745SEGMYkWnyRNdKVPFr4C5OZjHcLjd6cqeRWD4iudG?purpose=fullsize)
 
-![ESP32-Based Smart Sensor Node with Custom PCB Design - Share Project - PCBWay](https://images.openai.com/static-rsc-4/hNll2u6n1lv2I0cpxMd-BjQqHSsG0n_n-YynDi4WEBfGj_uTNuGKfFLsH14wdQ4mePowL9TUKvUAEVcbg3p-stMVRcxlaz_VHMIFnDVqd8NQ5jcF439rqmYY-_kKpI7XKSDwSkujzhuVSfTzR2GPLz_blOckCNYdYvulA4LxoXaa3xab2Df6Pm6MitFyKgxq?purpose=fullsize)
+AIRDROP combines multiple sensors, ESP32-based modules and a connected dashboard to make environmental monitoring more accessible. The idea is to build something that doesn't just collect sensor readings but can also help people understand when their surroundings might be becoming unsafe.
 
-![KTL, ‘재난대응 의사결정지원 시스템’ 환경연구개발 우수성과에 선정 - 대한경제](https://images.openai.com/static-rsc-4/P6dxa2zyUY3B4yv_tVs7mwl4Kol03NdDbm8GAY5-tGN2EswC-0Wvvy584JVU9fsMKcU25XnbxfKkGQQoOwdezUQnJsL6mbMjgXxVWYePYmz7QoRmShI3pgAKaxI5fXuz4tCRQNqiLKT6iTfw3dmikWj33G819mWBj59dfTKObh7rekm3bv2Lnj5TEVKtZrlo?purpose=fullsize)
+I started working on AIRDROP because I wanted to explore how affordable electronics and software could be used for real-world safety problems. I wanted to go beyond making another basic temperature or gas detector, so I started developing a system with multiple monitoring modules, a wearable alert concept and a connected application.
 
-1\. What does AirDrop do?
+Features
 
-AirDrop is designed to:
+- Environmental monitoring using multiple sensors.
+- Temperature, humidity and air-quality monitoring.
+- Airflow detection.
+- Water-leak detection.
+- Motion and distance monitoring.
+- ESP32-based wireless communication.
+- Firebase integration for real-time data updates.
+- Dashboard with sensor readings and alerts.
+- Risk scoring system with different safety levels.
+- Location-based monitoring concept.
+- Wearable notifications and SOS functionality.
+- Early-warning and forecasting features under development.
 
-* Monitor the environment: Collect temperature, humidity, air-quality and gas-related readings.
+Hardware
 
-* Detect unusual changes: Identify abnormal environmental conditions, movement, vibration and nearby obstacles.
+AIRDROP uses ESP32-based modules to collect information from different sensors.
 
-* Assess potential risks: Process sensor readings through a risk-assessment engine.
+Main components:
 
-* Provide early warnings: Classify conditions into different risk levels.
+- ESP32-WROOM-32 modules
+- BME680 environmental sensor
+- MPU6050 motion sensor
+- HC-SR04 ultrasonic sensors
+- Airflow sensor
+- Water-leak sensors
+- Custom-designed PCB
+- USB power connection
 
-* Visualise threats: Display sensor data, alerts and geographical information on a dashboard.
+The system is divided into multiple sensor modules so different environmental parameters can be monitored together.
 
-* Support emergency response: Provide location information and an SOS/rescue-support concept.
+PCB
 
-2\. Hardware architecture
+[Add PCB design image here]
 
-Your planned system uses:
+Instead of relying entirely on ready-made sensor boards, I worked on a custom PCB design for the system.
 
-| Component    | Purpose                                                 |
-| ------------ | ------------------------------------------------------- |
-| ESP32        | Main processing and connectivity                        |
-| BME680       | Temperature, humidity, pressure and gas-related sensing |
-| MPU6050      | Motion, tilt and vibration monitoring                   |
-| HC-SR04      | Distance measurement                                    |
-| PCB          | Integrates electronic components                        |
-| Power supply | Powers the device                                       |
+The design uses two ESP32-WROOM-32 modules and a combined board architecture. The goal was to make the electronics more organized and suitable for a proper physical assembly.
 
-The design also includes a custom PCB approach rather than relying entirely on loose development-board connections.
+PCB specifications:
 
-3\. Software architecture
+- 4-layer PCB
+- 50 × 50 mm board
+- USB-powered design
+- Two ESP32-WROOM-32 modules
+- Custom component placement and routing
 
-AIRDROP HARDWARE
+3D Assembly
 
-ESP32 + Environmental Sensors
+[Add 3D assembly image here]
 
-DATA PROCESSING
+I also worked on the 3D assembly to understand how the different components would fit together physically.
 
-Sensor readings and anomaly detection
+This helped me visualize the overall structure before moving towards the actual hardware build.
 
-FIREBASE REALTIME DATABASE
+Software & Dashboard
 
-Cloud data storage and synchronisation
+[Add dashboard screenshots here]
 
-AI / RISK ASSESSMENT ENGINE
+The software side of AIRDROP connects the sensor hardware to a Firebase backend.
 
-Risk scoring and warning classification
+The dashboard is designed to display environmental readings, safety scores, alerts and location information.
 
-AIRDROP DASHBOARD
+The planned risk classification is:
 
-Live monitoring • Risk map • Alerts • SOS
+- Safe: 0–25
+- Caution: 26–50
+- Warning: 51–75
+- Critical: 76–100
 
-Your dashboard: [AirDrop – Live Dashboard](https://foresight-alert-sphere.lovable.app/?utm_source=chatgpt.com).
+I also want to include a map-based monitoring system, historical readings, multilingual support and a rescue mode.
 
-4\. Risk classification
+Firmware
 
-Your proposed risk-scoring system uses a 0–100 scale.
+The firmware is being developed for the ESP32 modules.
 
-| Score  | Classification |
-| ------ | -------------- |
-| 0–25   | 🟢 Safe        |
-| 26–50  | 🟡 Caution     |
-| 51–75  | 🟠 Warning     |
-| 76–100 | 🔴 Critical    |
+Its main responsibilities include:
 
-These are proposed software thresholds, not independently validated safety standards.
-5\. What makes AirDrop different?
+- Reading data from connected sensors.
+- Processing sensor readings.
+- Communicating between modules.
+- Sending data to Firebase.
+- Detecting unusual readings.
+- Triggering alerts when required.
 
-AirDrop isn't intended to be just another temperature sensor or gas detector.
+The idea is to avoid unnecessary panic alerts and make notifications meaningful.
 
-Its larger vision is to combine:
+Current Progress
 
-* Multiple environmental sensors.
+The PCB design and 3D assembly have been worked on, and the dashboard and software architecture are also in development.
 
-* Real-time monitoring.
+I'm currently focusing on firmware, sensor integration and connecting the different parts of the system.
 
-* Location-based risk visualisation.
+There are still plenty of things to test and improve, especially when it comes to making the hardware and software work together reliably.
 
-* AI-assisted risk assessment.
+Why AIRDROP?
 
-* Early-warning notifications.
+I wanted to build something that could have a practical purpose outside a normal electronics project.
 
-* Emergency-response support.
+Environmental hazards can affect people without much warning. AIRDROP is my attempt to explore how connected sensors and accessible technology could help detect unusual conditions earlier.
 
-* Potential future environmental forecasting.
+It's still a work in progress, but every part of this project is helping me understand hardware design, embedded systems, software integration and real-world engineering.
 
- 6\. The bigger vision
+Credits & Acknowledgements
 
-![\[HEX\]POD - Climate Tracker &amp; Digital Nose | Details | Hackaday.io](https://images.openai.com/static-rsc-4/hXCzJIAv2rAdW2iMEy30GQVixZ1xN7JxobFqBvFs3Mg8poFW3zi1tbnJ2ov3jz6VL2K7NzlZCrWXMpPcgcy57bvzBAJEJJxgbycF0kwaVskbiIdCYwbNsa-oSGqihbdFzn0XBBDzBhMutomtf0-Tk745SEGMYkWnyRNdKVPFr4C5OZjHcLjd6cqeRWD4iudG?purpose=fullsize)
+AIRDROP is an independently developed project.
 
-AirDrop aims to become a portable environmental intelligence system that can help communities, institutions and emergency-response teams understand changing environmental conditions and respond more effectively.
+Hardware architecture, PCB design, software integration and system planning are part of the project development.
 
-One important distinction: AirDrop is currently an engineering prototype and developing system. Its predictions, AI risk scores and emergency features need real-world testing and validation before they can be relied upon for life-safety decisions.
+Thanks to the open-source hardware and software communities for the tools, libraries and resources that make projects like this possible.
 
-In one sentence:
+Built with curiosity, experimentation and a lot of debugging.
 
-AirDrop is an AI-assisted environmental safety and early-warning system that combines smart sensors, connected hardware and real-time risk analysis to help identify potential environmental threats before they escalate.
+AIRDROP — Detect Early. Alert Smarter. Stay Safer.
