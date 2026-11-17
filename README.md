@@ -45,6 +45,9 @@ Main components:
 The system is divided into multiple sensor modules so different environmental parameters can be monitored together.
 
 Schematics
+<img width="720" height="376" alt="3596a2f7-1769-47e9-b3bc-3f0e117ddbb7_thumb" src="https://github.com/user-attachments/assets/d4a8cc68-d557-40db-92c0-c6c6d7e9bc5e" />
+
+
 Instead of relying entirely on ready-made sensor boards, I worked on a custom PCB design for the system.
 
 The design uses two ESP32-WROOM-32 modules and a combined board architecture. The goal was to make the electronics more organized and suitable for a proper physical assembly.
