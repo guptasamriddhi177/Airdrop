@@ -52,6 +52,8 @@ This project goes beyond basic Arduino experiments.
 
 AirDrop uses an ESP32-based architecture with multiple sensors working together to collect different types of information.
 
+
+
 Current hardware stack:
 
 * ESP32-WROOM-32
