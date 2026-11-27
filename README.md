@@ -1,5 +1,7 @@
 ### AirDrop — Making Environmental Safety Smarter.
 
+<img width="720" height="1019" alt="c7771f2b-d4c5-4e82-b6b9-3f5450d73018_thumb" src="https://github.com/user-attachments/assets/9f409423-ce53-409c-9bd3-330dee06ac4b" />
+
 What if your surroundings could literally warn you before things go south?
 
 That's AirDrop.
@@ -52,6 +54,7 @@ This project goes beyond basic Arduino experiments.
 
 AirDrop uses an ESP32-based architecture with multiple sensors working together to collect different types of information.
 
+<img width="720" height="376" alt="3596a2f7-1769-47e9-b3bc-3f0e117ddbb7_thumb" src="https://github.com/user-attachments/assets/aa5ff849-26a0-4908-8a0b-217dd16dacf3" />
 
 
 Current hardware stack:
@@ -95,6 +98,8 @@ Node 2
 * Motion and distance monitoring
 
 The idea behind multiple nodes is pretty straightforward: different modules handle different sensing responsibilities, making the overall system more organised.
+
+<img width="450" height="446" alt="d7ffc670-cfb3-4c63-a3d2-a81fb6386540_thumb" src="https://github.com/user-attachments/assets/ada25cde-0d30-42dc-834c-74f970ea8cdd" />
 
 ### PCB design & electronics
 
@@ -196,6 +201,8 @@ The concept explores:
 * Compact wearable design.
 
 It's meant to extend the AirDrop ecosystem beyond the main hardware and dashboard.
+<img width="720" height="1570" alt="ba85266f-2906-4fda-83a6-de591531b234_thumb" src="https://github.com/user-attachments/assets/bf04121c-2cfd-4aef-be69-e2ce4b4d4438" />
+
 
 ### The dashboard — not just another boring IoT page
 
