@@ -136,6 +136,4 @@ I'm a student innovator interested in technology, electronics, robotics and buil
 
 AirDrop is an independently developed project, and this repository is where I'm keeping its development work, designs and progress.
 
-GitHub: [Airdrop Repository](https://github.com/guptasamriddhi177/Airdrop?utm_source=chatgpt.com)
-
 Still building. Still figuring things out. Still a lot to do. :)
