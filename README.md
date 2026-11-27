@@ -1,6 +1,8 @@
 ### AirDrop
 
 Smart Environmental Safety & Early Warning System
+<img width="720" height="1019" alt="c7771f2b-d4c5-4e82-b6b9-3f5450d73018_thumb" src="https://github.com/user-attachments/assets/642f458e-b0a1-4754-b69e-cf3ffb5ce40d" />
+
 
 AirDrop is a project I've been working on to make environmental monitoring a bit smarter and more useful in real life. The main idea is to build a system that can collect environmental data, understand what's happening around it, identify possible risks and send alerts when something seems wrong.
 
@@ -26,6 +28,11 @@ I'm also incorporating airflow detection and water leakage sensors to expand the
 
 The whole setup is being designed as a connected hardware system rather than a bunch of separate components sitting on a table. Getting the components to work together properly has been one of the more interesting parts of this project.
 
+<img width="720" height="376" alt="3596a2f7-1769-47e9-b3bc-3f0e117ddbb7_thumb" src="https://github.com/user-attachments/assets/059714e7-3627-40de-9d46-676326cc336d" />
+
+<img width="450" height="446" alt="d7ffc670-cfb3-4c63-a3d2-a81fb6386540_thumb" src="https://github.com/user-attachments/assets/8ac8d41b-714e-4095-aced-cb3581b97875" />
+
+
 ### PCB design and 3D assembly
 
 I've worked on the PCB architecture and the physical assembly design as well. The goal is to move away from a basic breadboard prototype and towards a more organised, compact hardware setup.
@@ -35,6 +42,11 @@ The PCB design follows a four-layer architecture with a planned board size of 50
 The 3D assembly is also completed, giving the project a clearer physical structure and helping me understand how the components fit together.
 
 Honestly, getting the hardware architecture, PCB and physical design aligned took quite a bit of figuring out. But that's part of building something from scratch.
+
+<img width="720" height="1313" alt="fe856a81-4810-410f-9b95-57f2b1a05e3e_thumb" src="https://github.com/user-attachments/assets/2d75f3ea-048a-4d91-b830-81880d62c8d8" />
+
+<img width="720" height="1368" alt="f0b74a75-ba79-4281-af0e-4f2cb65f675f_thumb" src="https://github.com/user-attachments/assets/95c25bf1-5027-4f39-a2c8-cc9fe3e5ec7b" />
+
 
 ### Software and connectivity
 
@@ -67,6 +79,8 @@ Critical (76–100) for high-risk conditions that require immediate attention.
 These ranges are part of the current prototype concept and will need proper testing, calibration and validation. They're not certified safety thresholds.
 
 I want the system to consider multiple readings instead of relying on a single sensor value. That's important because environmental conditions can be complicated, and one unusual reading doesn't always mean there's an actual emergency.
+<img width="470" height="380" alt="98307633-bf5f-48ec-a5f4-772aa08b9e72_thumb" src="https://github.com/user-attachments/assets/da2daa61-9807-441f-8716-4267c65942a6" />
+
 
 ### The wearable concept
 
