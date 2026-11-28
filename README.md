@@ -1,4 +1,4 @@
-##AirDrop 
+**AirDrop** 
 <img width="720" height="1019" alt="44d46a71-a989-4e50-9bbf-b5a750be2714_thumb" src="https://github.com/user-attachments/assets/16137e2a-9c5d-41a7-bcbb-a4d2106a6ab8" />
 
 okay so... what if we could detect environmental danger BEFORE it becomes a whole disaster?
@@ -17,7 +17,7 @@ And honestly, this project has been one big learning experience. From figuring o
 
 ---
 
-##the schematic ⚡
+**the schematic ⚡**
 
 Here's where all the electronics start making sense.
 
@@ -34,7 +34,7 @@ Basically, this is where all the different pieces start coming together.
 
 ---
 
-##the PCB
+**the PCB**
 
 Not gonna lie, getting to the PCB stage felt pretty cool.
 
@@ -48,7 +48,7 @@ A lot of planning goes into making sure the components, connections and overall 
 
 ---
 
-##the enclosure
+**the enclosure**
 
 A bunch of electronics thrown together isn't exactly the final vision lol.
 
@@ -62,7 +62,7 @@ This is where the software side comes in.
 
 The sensor nodes collect readings, which are intended to be sent to Firebase Realtime Database and then displayed through the monitoring dashboard.
 
-The basic architecture:
+**The basic architecture:**
 
 ESP32 → Firebase → Dashboard
 
@@ -74,7 +74,7 @@ I'm also working on making the system more useful through risk scoring, forecast
 
 ---
 
-##where things stand rn 🚀
+**where things stand rn 🚀**
 
 AirDrop is still a work in progress, and there's a lot more to bring together.
 
@@ -86,4 +86,4 @@ But that's kinda the point of building something from scratch, right?
 
 I didn't want to just make something that looks cool in a project presentation. I wanted to understand how the actual thing works, from the electronics all the way to the software.
 
-Anyway, that's AirDrop. Still building, still figuring things out, and definitely not done yet :)
+**Anyway, that's AirDrop. Still building, still figuring things out, and definitely not done yet :)**
