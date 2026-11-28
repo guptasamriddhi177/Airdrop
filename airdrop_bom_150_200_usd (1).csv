@@ -1,0 +1,23 @@
+﻿Material,Quantity,Unit Price (INR),Price Source / Status,Assigned Use,Total Price (INR),Unit Price (USD),Total Price (USD),Purchase Link
+ESP32 38-pin Wi-Fi + Bluetooth development board,2,430.0,₹430 listing estimate,Main sensor-node controllers; one for environmental sensing and one for motion/additional inputs.,860.00,4.62,9.25,
+BME680 breakout module,1,1028.0,Robocraze listing,"Temperature, humidity, pressure and gas-resistance-based air-quality readings.",1028.00,11.05,11.05,
+MPU6050 GY-521 module,1,179.0,Techtonics listing,"Acceleration and angular-velocity sensing for movement, tilt and vibration.",179.00,1.92,1.92,
+HC-SR04 ultrasonic sensor,3,75.0,Quartz Components listing,Distance/proximity measurements.,225.00,0.81,2.42,
+Gravity PAV3015 air-velocity sensor,1,4767.45,Mouser India listing,"Air-velocity measurement; budget alternative to the original Omron airflow sensor. Confirm interface, range and mechanical fit before using with the existing PCB.",4767.45,51.26,51.26,
+Water-level / water-presence sensor module,2,49.0,Anu Electronics listing estimate,Basic water-contact detection at leak-prone locations; not equivalent to industrial cable-type leak sensors.,98.00,0.53,1.05,
+ESP32-C3 Super Mini development board,1,255.0,Techtonics listing,Wearable controller for receiving and handling alerts.,255.00,2.74,2.74,
+0.96-inch SSD1306 OLED display,1,220.0,Indicative India component price,Small display for wearable alert/status messages.,220.00,2.37,2.37,
+"Rechargeable Li-Po battery, 3.7 V",1,650.0,Budget allowance; verify capacity and protection,Portable power for the wearable.,650.00,6.99,6.99,
+TP4056 Li-Po charging/protection module,1,80.0,Budget allowance,Charging interface for the wearable battery; use a correctly protected cell and compatible module.,80.00,0.86,0.86,
+Coin vibration motor,1,70.0,Budget allowance,Haptic notification for incoming alerts.,70.00,0.75,0.75,
+Wearable strap and enclosure,1,450.0,Budget allowance,Holds and protects the wearable electronics.,450.00,4.84,4.84,
+Buzzer + status LED module,1,100.0,Budget allowance,Local audible/visual status indication on the main unit.,100.00,1.08,1.08,
+Project enclosure for sensor unit,1,650.0,Budget allowance,Protective housing for the main electronics and sensors; sensor openings still need to be designed appropriately.,650.00,6.99,6.99,
+Power adapter / USB power supply,1,450.0,Budget allowance,Provides regulated power to the main unit; select output to match the final power design.,450.00,4.84,4.84,
+Plantower PMS5003 PM1.0 / PM2.5 / PM10 particulate sensor,1,2330,Compoden India listing; price shown inclusive of taxes,"Adds laser-based particulate measurements (PM1.0, PM2.5 and PM10), complementing the BME680; requires 5V supply and UART connection.",2330.00,25.05,25.05,https://compoden.com/products/pms5003-particulate-matter-sensor-pm25-air-quality-monitor
+NEO-6M GPS module with antenna,1,289,Techtonics listing; GST included,Adds outdoor location coordinates for mobile deployments; needs a reasonably clear view of the sky and is not reliable indoor positioning.,289.00,3.11,3.11,https://techtonics.in/product/neo-6m-gps-module-with-eprom/
+DS3231 RTC module with AT24C32,1,249,AM Electronics listing,Keeps date and time for local event logs when internet connectivity is unavailable.,249.00,2.68,2.68,https://amelectronics.in/shop/?filter_category=workbench-tools%2Carduino-boards%2Crtc-modules%2Csound-sensor-modules
+MicroSD card SPI module,1,92,AM Electronics listing,Interface for saving sensor readings and event logs locally.,92.00,0.99,0.99,https://amelectronics.in/shop/?filter_category=arduino-boards%2Crtc-modules%2Csound-sensor-modules
+32GB microSD card,1,500,Budget allowance; verify card compatibility,Storage media for offline sensor and event logs.,500.00,5.38,5.38,
+Vented sensor housing / mounting allowance,1,700,Budget allowance; final design-dependent,Protects and mounts the particulate and airflow sensors while preserving suitable airflow through their sensing inlets.,700.00,7.53,7.53,
+Power supply upgrade allowance (additional),1,400,Budget allowance; select regulated 5V supply after checking total current draw,Extra power budget for the PMS5003 and other 5V loads; confirm regulator capacity and wiring before assembly.,400.00,4.30,4.30,
