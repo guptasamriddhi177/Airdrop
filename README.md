@@ -1,139 +1,89 @@
-### AirDrop
+##AirDrop 
+<img width="720" height="1019" alt="44d46a71-a989-4e50-9bbf-b5a750be2714_thumb" src="https://github.com/user-attachments/assets/16137e2a-9c5d-41a7-bcbb-a4d2106a6ab8" />
 
-Smart Environmental Safety & Early Warning System
-<img width="720" height="1019" alt="c7771f2b-d4c5-4e82-b6b9-3f5450d73018_thumb" src="https://github.com/user-attachments/assets/642f458e-b0a1-4754-b69e-cf3ffb5ce40d" />
+okay so... what if we could detect environmental danger BEFORE it becomes a whole disaster?
 
+That's basically how AirDrop started.
 
-AirDrop is a project I've been working on to make environmental monitoring a bit smarter and more useful in real life. The main idea is to build a system that can collect environmental data, understand what's happening around it, identify possible risks and send alerts when something seems wrong.
+AirDrop is my attempt at building a smart environmental safety and early warning system. The idea is pretty simple: instead of waiting for something to go wrong and THEN reacting to it, why not have a system that keeps monitoring what's happening and warns you when things start looking sus?
 
-It's not just about collecting sensor readings and displaying random numbers on a screen. I want AirDrop to actually make that data useful, so people can understand their surroundings and react to potential problems earlier.
+I wanted to build something that wasn't just another basic sensor project that detects one thing, beeps a little and calls it a day.
 
-The project brings together electronics, embedded systems, IoT, cloud technology, hardware design and software. And yeah, there's quite a lot going on behind the scenes :)
+So yeah, I went a little further.
 
-### What AirDrop does
+AirDrop combines ESP32-based sensor nodes, environmental monitoring, wireless communication, a Firebase-connected dashboard and a wearable alert system. The goal is to make environmental monitoring smarter, more accessible and actually useful in real-world situations.
 
-AirDrop uses multiple sensors to monitor different environmental and physical conditions. The sensor data is collected through ESP32 modules and sent to the software side, where it can be processed, displayed and used for risk assessment.
+And honestly, this project has been one big learning experience. From figuring out hardware connections to designing a custom PCB and working on the 3D assembly, there's been a LOT going on behind the scenes :)
 
-The idea is to make the system recognise unusual conditions instead of just showing raw readings. For example, changes in temperature, air quality, airflow, movement or water leakage can be monitored and considered while assessing the surrounding environment.
+---
 
-When readings indicate a possible risk, the system can generate an alert and display the relevant information through its dashboard. I'm also working towards making the alerts more meaningful, so the system doesn't unnecessarily create panic over every small change.
+##the schematic ⚡
 
-### The hardware
+Here's where all the electronics start making sense.
 
-The hardware architecture is built around two ESP32-WROOM-32 modules. Each module handles a different set of sensors, allowing the system to collect information from multiple sources.
+AirDrop uses two ESP32-based sensor nodes, each handling different parts of the monitoring system.
 
-The first node focuses on environmental monitoring. It uses a BME680 sensor for environmental readings, along with an HC-SR04 ultrasonic sensor. The second node uses an MPU6050 for motion and orientation data, along with another ultrasonic sensor.
+Node 1 works with the BME680 and HC-SR04, while Node 2 uses the MPU6050 and another HC-SR04.
 
-I'm also incorporating airflow detection and water leakage sensors to expand the monitoring capabilities.
+I've also been working on integrating airflow detection and leak detection because I didn't want the project to stop at basic environmental readings.
 
-The whole setup is being designed as a connected hardware system rather than a bunch of separate components sitting on a table. Getting the components to work together properly has been one of the more interesting parts of this project.
+Basically, this is where all the different pieces start coming together.
 
-<img width="720" height="376" alt="3596a2f7-1769-47e9-b3bc-3f0e117ddbb7_thumb" src="https://github.com/user-attachments/assets/059714e7-3627-40de-9d46-676326cc336d" />
+<img width="720" height="376" alt="e74066b8-12bf-4257-9a75-d32cdfb746dc_thumb" src="https://github.com/user-attachments/assets/a15c04b6-7f27-475b-9b01-eabaa630d078" />
 
-<img width="450" height="446" alt="d7ffc670-cfb3-4c63-a3d2-a81fb6386540_thumb" src="https://github.com/user-attachments/assets/8ac8d41b-714e-4095-aced-cb3581b97875" />
 
+---
 
-### PCB design and 3D assembly
+##the PCB
 
-I've worked on the PCB architecture and the physical assembly design as well. The goal is to move away from a basic breadboard prototype and towards a more organised, compact hardware setup.
+Not gonna lie, getting to the PCB stage felt pretty cool.
 
-The PCB design follows a four-layer architecture with a planned board size of 50 × 50 mm. USB power is part of the design, and the system is being structured around the two ESP32 modules.
+Instead of keeping everything as a bunch of separate modules and wires, I worked on bringing the electronics into a custom PCB design.
 
-The 3D assembly is also completed, giving the project a clearer physical structure and helping me understand how the components fit together.
+The current design uses a 50 × 50 mm, four-layer PCB.
 
-Honestly, getting the hardware architecture, PCB and physical design aligned took quite a bit of figuring out. But that's part of building something from scratch.
+A lot of planning goes into making sure the components, connections and overall layout actually work together.
 
-<img width="720" height="1313" alt="fe856a81-4810-410f-9b95-57f2b1a05e3e_thumb" src="https://github.com/user-attachments/assets/2d75f3ea-048a-4d91-b830-81880d62c8d8" />
+<img width="450" height="446" alt="b2c2ac50-f2b0-4f29-b066-8b2767bacadf_thumb" src="https://github.com/user-attachments/assets/2b1a7878-cb17-4105-868a-a415dcfc3bf2" />
 
-<img width="720" height="1368" alt="f0b74a75-ba79-4281-af0e-4f2cb65f675f_thumb" src="https://github.com/user-attachments/assets/95c25bf1-5027-4f39-a2c8-cc9fe3e5ec7b" />
+---
 
+##the enclosure
 
-### Software and connectivity
+A bunch of electronics thrown together isn't exactly the final vision lol.
 
-AirDrop uses ESP32-based firmware to collect sensor readings and communicate with Firebase Realtime Database.
+I also worked on the 3D enclosure and assembly to give AirDrop an actual device-like form instead of just looking like a breadboard experiment.
 
-The general data flow is:
+<img width="470" height="380" alt="17d65246-f35a-4a36-8ca2-4434e78b9630_thumb" src="https://github.com/user-attachments/assets/e6d68e70-f262-4718-b320-26664b3a1374" />
 
-Sensors → ESP32 → Firebase → Dashboard → Risk Assessment
+okay but what actually happens to the data?
 
-The dashboard is being developed to bring the information together in one place. Instead of checking individual sensors manually, the aim is to have a single interface where readings, alerts and system status can be viewed.
+This is where the software side comes in.
 
-I'm currently refining the dashboard UI and working on making the experience cleaner and easier to understand. There's still work left on the firmware and integration side, so some features are still under development.
+The sensor nodes collect readings, which are intended to be sent to Firebase Realtime Database and then displayed through the monitoring dashboard.
 
-### Risk assessment
+The basic architecture:
 
-One of the important parts of AirDrop is its proposed risk scoring system.
+ESP32 → Firebase → Dashboard
 
-The idea is to translate sensor information into simple risk levels that are easier to understand.
+The dashboard is being developed to display environmental readings, risk levels, alerts and location-related information.
 
-The current scoring concept is:
+I'm also working on making the system more useful through risk scoring, forecasting concepts and a connected wearable alert interface.
 
-Safe (0–25) for normal conditions.
+<img width="720" height="1313" alt="e4b60a1b-eaa5-4859-a846-74a366116941_thumb" src="https://github.com/user-attachments/assets/cb359445-fc4d-402c-87c9-d52f6167f43a" />
 
-Caution (26–50) for conditions that need attention.
+---
 
-Warning (51–75) for potentially concerning conditions.
+##where things stand rn 🚀
 
-Critical (76–100) for high-risk conditions that require immediate attention.
+AirDrop is still a work in progress, and there's a lot more to bring together.
 
-These ranges are part of the current prototype concept and will need proper testing, calibration and validation. They're not certified safety thresholds.
+The PCB design is done, the 3D assembly is done, and I'm currently working on getting the firmware and software side properly connected.
 
-I want the system to consider multiple readings instead of relying on a single sensor value. That's important because environmental conditions can be complicated, and one unusual reading doesn't always mean there's an actual emergency.
-<img width="470" height="380" alt="98307633-bf5f-48ec-a5f4-772aa08b9e72_thumb" src="https://github.com/user-attachments/assets/da2daa61-9807-441f-8716-4267c65942a6" />
+There's been plenty of trial and error, a LOT of design decisions, and probably more tabs open than my laptop can handle.
 
+But that's kinda the point of building something from scratch, right?
 
-### The wearable concept
+I didn't want to just make something that looks cool in a project presentation. I wanted to understand how the actual thing works, from the electronics all the way to the software.
 
-Another part of AirDrop is a connected wearable.
-
-The idea is to make important alerts accessible without requiring someone to constantly check the main dashboard. The wearable concept includes wireless connectivity, risk notifications and an SOS feature.
-
-It is intended to work alongside the main monitoring system, giving users another way to receive information when something needs their attention.
-
-This part is still being developed, but I want it to eventually feel like a proper extension of AirDrop rather than just another gadget.
-
-### The dashboard
-
-The dashboard is where the collected information comes together.
-
-I'm working on an interface that can display environmental readings, risk levels, alerts and historical information in a more understandable way. The longer-term plan also includes location-based monitoring, maps, risk heatmaps and multilingual support.
-
-I want the interface to feel like an actual monitoring platform, not just a page full of numbers and charts.
-
-There's been a lot of UI refining lately because functionality matters, but so does how people interact with it. A useful system should also be easy to understand.
-
-### Why I started working on it
-
-Environmental safety is something that often gets attention only after something has gone wrong. Events like the Bhopal gas tragedy show why awareness, monitoring and early information matter.
-
-AirDrop is my attempt to explore how accessible electronics, sensors and connected technology could contribute to better environmental awareness.
-
-It's still a prototype, and I don't want to pretend it's already a complete disaster-prevention solution. There's a lot of testing, improvement and validation required before something like this could be relied on in real-world safety situations.
-
-But I think it's worth exploring.
-
-### Development
-
-I've been handling the research, concept, hardware architecture, PCB design, 3D assembly and software development myself. That means I've had to figure out quite a few things along the way, including stuff I had never worked with before.
-
-Some parts worked, some needed redesigning, and some took way longer than expected lol.
-
-Right now, my focus is on firmware development, sensor integration, Firebase connectivity and dashboard refinement. The next major step is bringing all the individual parts together and testing how they behave as one system.
-
-### What's next
-
-The next stage is focused on getting the hardware and software properly connected, testing sensor readings, improving the risk assessment logic and making sure alerts are generated reliably.
-
-After that, I want to work further on the wearable, location-based monitoring and the other planned dashboard features.
-
-AirDrop is still evolving, and there's definitely more to build. I'm documenting the process as I go, including the designs, experiments, improvements and the occasional mistake along the way :)
-
-### About
-
-Created by Samriddhi Gupta
-
-I'm a student innovator interested in technology, electronics, robotics and building things that solve actual problems.
-
-AirDrop is an independently developed project, and this repository is where I'm keeping its development work, designs and progress.
-
-Still building. Still figuring things out. Still a lot to do. :)
+Anyway, that's AirDrop. Still building, still figuring things out, and definitely not done yet :)
