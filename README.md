@@ -17,7 +17,7 @@ And honestly, this project has been one big learning experience. From figuring o
 
 ---
 
-**the schematic ⚡**
+**the schematic**
 
 Here's where all the electronics start making sense.
 
@@ -74,7 +74,7 @@ I'm also working on making the system more useful through risk scoring, forecast
 
 ---
 
-**where things stand rn 🚀**
+**where things stand rn**
 
 AirDrop is still a work in progress, and there's a lot more to bring together.
 
