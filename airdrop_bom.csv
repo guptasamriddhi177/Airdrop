@@ -1,9 +1,0 @@
-﻿Material,Quantity,Assigned Use,Unit Price (USD),Total Price (USD),Supplier,Purchase Link
-ESP32-WROOM-32E,2,"Main microcontrollers; one handles environmental sensors and the other handles motion and additional sensor inputs, processes readings, and communicates wirelessly.",,,,
-Bosch BME680,1,"Measures temperature, humidity, atmospheric pressure, and gas-resistance-based air-quality readings.",,,,
-MPU6050,1,"Measures acceleration, angular velocity, movement, tilt, and vibration.",,,,
-HC-SR04 Ultrasonic Sensor,3,Measures distance using ultrasonic waves for spatial and proximity-related monitoring.,,,,
-Omron D6F-P0010A1 Airflow Sensor,1,Measures airflow and helps identify unusual changes in air movement.,,,,
-Renke RS-SJ-N01-2 Leak Sensor,2,Detects water leakage at monitored locations and supplies readings to the controller.,,,,
-Custom 4-layer PCB (50 × 50 mm),1,Central hardware platform for mounting and electrically connecting the system components.,,,,
-Wearable Assembly,1,Receives wireless alerts from AirDrop and provides notifications to the user.,,,,
